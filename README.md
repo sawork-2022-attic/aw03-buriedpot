@@ -19,3 +19,33 @@ Please read the tutorial at  https://www.baeldung.com/spring-boot-crud-thymeleaf
 
 And please elaborate your understanding in MVC architecture via this homework in your README.md.
 
+
+
+# My understanding in MVC
+
+MVC divides the software system into three basic parts. They are model, view and controller.
+
+Model: Store data.
+
+View: Show data.
+
+Controller: Handle input and output. Transfer data from view to model.
+
+
+
+**Advantages**:
+
+Low coupling, high reuse, high maintainability,
+
+
+
+**Disadvantages**:
+
+Not suitable for small scale programs, low efficiency.
+
+
+
+**Example**:
+
+A calculator's screen and keyboard are the View. The numbers need to be calculated are the Model. The calculate functions are the Controller.
+
